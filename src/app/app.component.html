@@ -1,3 +1,21 @@
 <ion-app>
   <ion-router-outlet></ion-router-outlet>
+  <ion-tabs>
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button [routerLink]="['/register']">
+        <ion-icon name="add-circle-outline"></ion-icon>
+        register
+      </ion-tab-button>
+      <ion-tab-button [routerLink]="['/auth']">
+        <ion-icon name="enter-outline"></ion-icon>
+        login
+      </ion-tab-button>
+      <ion-tab-button [routerLink]="['/credentials']">
+        <ion-icon name="list-outline"></ion-icon>
+        credentials
+      </ion-tab-button>
+
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-app>

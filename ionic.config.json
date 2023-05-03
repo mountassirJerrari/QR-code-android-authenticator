@@ -1,7 +1,16 @@
 {
-  "name": "app",
+  "name": "webauthnAutanticator",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "enterprise": {
+      "keyId": 12087,
+      "productKey": "key_8823f164b16047028d2efab603c4a72e",
+      "appId": "4ccadfc1",
+      "orgId": "900df25c-ea09-4998-8434-ae844603c6b0",
+      "registries": [
+        "@ionic-enterprise;https://registry.ionicframework.com/"
+      ]
+    }
   },
   "type": "angular"
 }
